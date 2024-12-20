@@ -1,0 +1,39 @@
+header{
+    background-color: white;
+}
+nav{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+}
+.nav-list ul{
+    display: flex;
+    gap: 20px;
+}
+button{
+    cursor: pointer;
+}
+.first-btn{
+    width: 58px;
+height: 24.96px;
+border-radius: 3px;
+border: 1px hsla(0, 0%, 0%, 0.253) solid;
+}
+.second-btn{
+    width: 122px;
+height: 24.96px;
+border-radius: 3px;
+border: 1px hsla(0, 0%, 0%, 0.253) solid;
+}
+.third-btn{
+    width: 55px;
+    height: 24.96px;
+    border-radius: 3px;
+    border: 1px hsla(0, 0%, 0%, 0.253) solid;
+
+}

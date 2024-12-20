@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOG in</title>
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/first.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div><a href="/index.html"><img src="/images/logo.png" alt="" /></a></div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="/pages/first.html">First</a></li>
+            <li><a href="/pages/second.html">Second</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <ul>
+            <li>
+              <a href=""><button class="first-btn">Log in</button></a>
+            </li>
+            <li>
+              <a href=""><button class="second-btn">Open an account</button></a>
+            </li>
+            <li>
+              <a href=""><button class="third-btn">En</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <hr />
+    <main class="content">
+      <section>
+        <ul>
+          <li><img src="/images/logo.png" /></li>
+          <li><h1 class="welcome">Welcome to ByTrend!</h1></li>
+          <li>
+            <p class="log">
+              Already have an account? <span class="log-in">Log in</span>
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="container">
+        <div class="input-box">
+          <div>
+            <label for="text">First name<span>*</span></label>
+            <input type="text" placeholder="Your name" />
+          </div>
+          <div>
+            <label for="text">Last name<span>*</span></label>
+            <input type="text" placeholder="Your surename" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="date-input">
+          <label for="date">Birth date<span>*</span></label>
+          <input type="date" required />
+        </div>
+      </section>
+      <section>
+        <div class="form-group">
+          <label for="gender">Gender<span class="required">*</span></label>
+          <div>
+            <div class="radio-container">
+              <label class="radio-item">
+                <input type="radio" name="gender" value="female" checked />
+                Female
+              </label>
+              <label class="radio-item">
+                <input type="radio" name="gender" value="male" />
+                Male
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="check-box">
+          <label for="text">Skype</label>
+          <input type="text" placeholder="Your login Skype" />
+        </div>
+      </section>
+      <section>
+        <div class="check-box">
+          <label for="text">Promo</label>
+          <input type="text" placeholder="Your promo" />
+        </div>
+      </section>
+
+      <section class="button-box">
+        <a href=""><button class="btn">Continue</button></a>
+        <img src="/images/Arrow Right 1 - 24px.png" alt="" />
+      </section>
+    </main>
+  </body>
+</html>

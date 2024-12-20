@@ -1,0 +1,110 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-logo-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.welcome {
+  font-size: 29px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.log {
+  color: #444150;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.log-in {
+  color: #01bab3;
+  text-decoration: underline;
+}
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.content {
+  width: 496px;
+  height: 641px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+.content section {
+  display: flex;
+  justify-content: center;
+}
+.email-label {
+  display: block;
+}
+section ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 20px;
+}
+/* input uchun */
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.input-box input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px #d4d4d4 solid;
+}
+input::placeholder {
+  font-size: 16px;
+}
+.input-box label span {
+  color: rgb(42, 165, 52);
+}
+.input-box {
+  position: relative;
+}
+.input-box img {
+  position: absolute;
+  right: 0;
+  padding-top: 12px;
+}
+input:focus {
+  outline: none;
+  border-color: #00a5cf;
+  box-shadow: 0 0 5px rgba(0, 165, 207, 0.5);
+}
+.btn {
+  width: 300px;
+  height: 40px;
+  background-color: #01bab3;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.button-box img {
+  position: absolute;
+  padding-top: 7px;
+  padding-left: 80px;
+}
+.btn:focus {
+  width: 300px;
+  height: 40px;
+  background-color: #08fcf4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+}
