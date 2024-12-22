@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LOG in</title>
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <div class="load">
+      <img src="images/Pulse@1x-1.0s-200px-200px.gif" alt="Loading...">
+    </div>
+  
     <header>
       <nav>
         <div><img src="images/logo.png" alt="" /></div>
@@ -64,5 +68,17 @@
         <img src="images/Arrow Right 1 - 24px.png" alt="">
       </section>
     </main>
+    
+  <script>
+    // JavaScript kodni ulash
+    let load = document.querySelector(".load");
+    window.addEventListener("load", () => {
+      load.classList.remove("load-none");
+    });
+
+    setTimeout(() => {
+      load.classList.add("load-none");
+    }, 2000);
+  </script>
   </body>
 </html>
